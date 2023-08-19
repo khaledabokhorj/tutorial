@@ -1,0 +1,204 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.introduction{
+  margin: auto;
+  background-color: #E4F9F5 ;
+  text-align: center;
+  position: relative;
+  height: 100vh;
+  padding: 60px;
+}
+
+.introduction .text-title{
+  text-align: center;
+  position: relative;
+  left: 200px;
+  left: 60px;
+  top: 35px;
+}
+.introduction h1{
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 80px;
+  color: #66bfbf;
+  padding: 70px;
+}
+.introduction .programmer{
+  color: #66BFBF;
+  font-size: 40px;
+  position: relative;
+  bottom: 45px;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+.introduction .cloud{
+  width: 350px;
+  height: 150px;
+  position: absolute;
+  transition: 0.3s;
+  animation: up-dowun 0.8s infinite alternate;
+}
+@keyframes up-dowun{
+  from{
+    transform: translateY(-10px);
+  }
+  to{
+    transform: translateY(0);
+  }
+} 
+.introduction .cloud:nth-of-type(1){
+  right: 270px;
+  top: 50px;
+}
+.introduction .cloud:nth-of-type(2){
+  left: 340px;
+  bottom: 270px;
+}
+.introduction .mountin{
+  width: 950px;
+  height: 350px;
+  position: absolute;
+  right: 200px;
+  bottom: 50px;
+  margin-bottom: -45px;
+}
+.container{
+  background-color: white;
+  margin: 20px auto;
+}
+.info{
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+.info img{
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  margin-top: 40px;
+
+}
+ .title{
+  color: #66bfbf;
+  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+.info .lorem{
+  margin: auto;
+  font-size: 18px;
+  padding: 20px;
+  width: 450px;
+  line-height: 1.6;
+  margin-top: 30px;
+}
+hr{
+  width: 50px;
+  margin: auto;
+  border: dotted 6px #EAF6F6;
+  border-bottom: none;
+}
+.info-skills{
+  width: 100%;
+  text-align: center;
+}
+.info-skills .add{
+  margin-bottom: 90px;
+}
+.description {
+  width: 50%;  
+  text-align: left;
+  margin-bottom: 30px;
+  height: 200px;
+  margin: auto;
+  padding: 40px;
+}
+.description img{
+  width: 180px;
+}
+.description .img-l{
+float: left;
+position: relative;
+right: 35px;
+top: 20px;
+}
+.description .img-r{
+float: right;
+position: relative;
+left: 35px;
+top: 25px;
+}
+.info-skills .skills{
+  color: #479D9E;
+  font-size: 22px;
+  font-family: sans-serif;
+}
+.description .skills-number{
+  position: relative;
+  font-size: 19px;
+  top: 30px;
+  padding: 0 30px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+.container .help{
+  text-align: center;
+}
+.container .help .blue{
+  color: #479D9E;
+  font-weight: normal;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-size: 22px;
+  font-family: sans-serif;
+}
+.container .help .note{
+  width: 585px;
+  margin: auto;
+  font-size: 20px;
+  line-height: 1.6;
+}
+.container .help .contact{
+  font-family: 'Montserrat', sans-serif;
+  display: block;
+  margin: 40px auto;
+  text-decoration: none;
+  background-color: #11CDD4;
+  width: fit-content;
+  padding: 10px 30px ;
+  border-radius: 10px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 100px;
+  transition: 0.3s;
+}
+.container .help .contact:hover{
+  background-color: #30e3cb;
+}
+.footer{
+  background-color: #66BFBF;
+  margin: 40px auto 0;
+  text-align: center;
+  padding:  60px ;
+}
+.footer a{
+  font-family: 'Montserrat', sans-serif;
+  display: inline-block;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  text-decoration: none;
+  color: #199EA8;
+  transition: 0.3s;
+}
+.footer a:hover{
+  color: white;
+  font-weight: bold;
+}
+.footer p{
+  color: white;
+  font-size: 12px;
+}
